@@ -1,0 +1,64 @@
+.img {
+    width: 100px; /* Set width as desired */
+    height: 100px; /* Set height as desired */
+  }
+  .form {
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 10px;
+    /* justify-content: center;
+    align-items: center; */
+
+
+  }
+  
+ 
+  
+  .form button {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  } 
+
+  .form input{
+    padding: 8px 11px;
+    margin-bottom: 10px;
+    width: 20%;
+  }
+
+  /* styles.css */
+
+.container {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 20%;
+    border: 2px solid #ccc; /* Add a border around the container */
+  padding: 10px;
+  }
+  
+  .img {
+    width: 50px; /* Set the desired width for the image */
+    height: 50px; /* Set the desired height for the image */
+    object-fit: cover; /* This will make the image cover its container while maintaining its aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 20px; /* Add some spacing between the image and contact details */
+    border: 2px solid #ccc; /* Add a border around the container */
+  /* padding: 10px; */
+  }
+
+ /* styles.css */
+
+.heading {
+    text-align: center; /* Align the heading text to the center */
+    border: 2px solid #ccc; /* Add a border around the heading */
+    padding: 10px; /* Add padding to create spacing between the text and the border */
+    border-radius: 5px; /* Add rounded corners to the border */
+    background-color: #f2f2f2; /* Add a background color for the heading */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow for a nice effect */
+    width: 98%; /* Set the desired width for the heading container */
+    margin: 0 auto; /* Center the heading using margin */
+  }
+  
+  
+ 
+  
